@@ -129,8 +129,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="imgui-demo\gui.h" />
-    <ClInclude Include="imgui-demo\injector.h" />
+    <ClInclude Include="src\gui.h" />
+    <ClInclude Include="src\injector.h" />
     <ClInclude Include="imgui\imconfig.h" />
     <ClInclude Include="imgui\imgui.h" />
     <ClInclude Include="imgui\imgui_impl_dx9.h" />
@@ -141,9 +141,9 @@
     <ClInclude Include="imgui\imstb_truetype.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="imgui-demo\gui.cpp" />
-    <ClCompile Include="imgui-demo\injector.cpp" />
-    <ClCompile Include="imgui-demo\main.cpp" />
+    <ClCompile Include="src\gui.cpp" />
+    <ClCompile Include="src\injector.cpp" />
+    <ClCompile Include="src\main.cpp" />
     <ClCompile Include="imgui\imgui.cpp" />
     <ClCompile Include="imgui\imgui_demo.cpp" />
     <ClCompile Include="imgui\imgui_draw.cpp" />
